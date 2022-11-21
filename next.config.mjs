@@ -20,3 +20,7 @@ const withMDX = nextMDX({
 })
 
 export default withMDX(nextConfig)
+  module.exports = {
+      //next.config.js
+      distDir: 'build'
+  }
