@@ -2,6 +2,6 @@ env: standard
 runtime: nodejs16
 service: project-1-service
 handlers:
- - url: /.*
- secure: always
- script: auto
+  - url: /.*
+    secure: always
+    script: auto
