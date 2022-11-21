@@ -2,15 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/about": "pages/about.html",
-  "/algemene_voorwaarden": "pages/algemene_voorwaarden.html",
-  "/cecotec": "pages/cecotec.html",
-  "/contact": "pages/contact.html",
-  "/": "pages/index.html",
-  "/jumbo": "pages/jumbo.html",
-  "/privacy_statement": "pages/privacy_statement.html",
-  "/qware": "pages/qware.html",
-  "/retouneren": "pages/retouneren.html",
-  "/ridd": "pages/ridd.html",
-  "/404": "pages/404.html"
+  "/": "pages/index.js"
 }
