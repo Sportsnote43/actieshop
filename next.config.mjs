@@ -6,6 +6,7 @@ import rehypePrism from '@mapbox/rehype-prism'
 const nextConfig = {
   pageExtensions: ['jsx', 'mdx'],
   reactStrictMode: true,
+  distDir: 'next/build',
   experimental: {
     scrollRestoration: true,
   },
@@ -20,7 +21,3 @@ const withMDX = nextMDX({
 })
 
 export default withMDX(nextConfig)
-  module.exports = {
-      //next.config.js
-      distDir: 'build'
-  }
